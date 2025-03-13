@@ -4,14 +4,14 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 
 // Páginas Gerais
 import Login from './pages/Login/Login';
-import HomeAdmin from './pages/Headers&Homes/HomeAdmin';
+import HomeAdmin from './pages/Admin/HomeAdmin';
 import Dashboard from './pages/Admin/Dashboard';
 import UserControl from './pages/Admin/ListaUsuarios';
 import CadastroUsuario from './pages/Admin/CadastroUsuario';
-import HomeAluno from './pages/Agente/HomeAluno';
+import HomeAluno from './pages/Aluno/HomeAluno';
 import EditarAula from './pages/Admin/EditarAula'
 import CriarAula from './pages/Admin/CriarAula'
-
+import FazerAula from './pages/Aluno/FazerAula'
 
 // Funções
 import NaoEncontrado from './functions/NaoEncontrado';
@@ -54,6 +54,7 @@ function App() {
           <Route path="/usuarios/criar" element={<CadastroUsuario />} />
           <Route path="/dashboard" element={<Dashboard />} />
 
+          <Route path="/fazer/aula/:id" element={<FazerAula />} />
           <Route path="/aula/criar" element={<CriarAula />} />
           <Route path="/aula/:id" element={<EditarAula />} />
 

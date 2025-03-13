@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderAdmin from './HeaderAdmin';
+import HeaderAdmin from '../Admin/HeaderAdmin';
 import CasosTable from '../Admin/ListaAulas';
 
 

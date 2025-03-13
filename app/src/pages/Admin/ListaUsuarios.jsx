@@ -20,7 +20,7 @@ import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import Box from '@mui/material/Box';
-import HeaderAdmin from '../Headers&Homes/HeaderAdmin';
+import HeaderAdmin from './HeaderAdmin';
 import './static/CasosTable.css';
 import { Link } from 'react-router-dom';
 

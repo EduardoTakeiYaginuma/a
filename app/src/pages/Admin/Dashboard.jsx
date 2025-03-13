@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Container, Typography, Grid, Paper } from '@mui/material';
 import { PieChart, Pie, Tooltip, Cell, Legend } from 'recharts';
 import { BarChart } from '@mui/x-charts/BarChart';
-import HeaderAdmin from '../Headers&Homes/HeaderAdmin';
+import HeaderAdmin from './HeaderAdmin';
 import Cookies from 'universal-cookie';
 import './static/Dashboard.css';
 

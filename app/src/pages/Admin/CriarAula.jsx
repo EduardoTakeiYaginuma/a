@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { TextField, Button, MenuItem, Typography, Container, Box, Grid, Checkbox, FormControlLabel } from '@mui/material';
-import HeaderAdmin from '../Headers&Homes/HeaderAdmin';
+import HeaderAdmin from './HeaderAdmin';
 import { Link } from 'react-router-dom';
 import Cookies from 'universal-cookie';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';

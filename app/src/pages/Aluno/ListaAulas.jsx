@@ -21,7 +21,7 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import WarningIcon from '@mui/icons-material/Warning';
 import ArticleIcon from '@mui/icons-material/Article';
 import Typography from '@mui/material/Typography';
-import './static/CasosTable.css';
+import './static/ListaAulas.css';
 
 const columns = [
     { id: 'aluno', label: 'EXERCÍCIO', minWidth: 100, Icon: ContactsIcon },
@@ -73,7 +73,7 @@ function CasosTable() {
     };
 
     const handleViewClick = (id) => {
-        navigate(`/exercicio/${id}`);
+        navigate(`/fazer/aula/${id}`);
     };
 
     const handleChangePage = (event, newPage) => {
